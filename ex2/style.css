@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #111;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin: 4px 0;
+}
+
+.form-row label {
+    width: 78px;
+}
+
+.form-row input {
+    width: 140px;
+    box-sizing: border-box;
+}
+
+.form-actions {
+    margin: 12px 0 18px 78px;
+}
+
+button, select {
+    cursor: pointer;
+}
+
+fieldset {
+    min-height: 130px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    min-width: 420px;
+}
+
+th, td {
+    border-bottom: 1px solid #888;
+    border-right: 1px solid #888;
+    padding: 7px 10px;
+    text-align: left;
+}
+
+th {
+    border-top: 1px solid #888;
+}
+
+th:last-child, td:last-child {
+    border-right: 0;
+}
+
+.table-actions {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+#message {
+    margin-left: 6px;
+    font-size: 13px;
+    color: #27632a;
+}
+
+@media (max-width: 600px) {
+    fieldset {
+        overflow-x: auto;
+    }
+    table {
+        min-width: 420px;
+    }
+}
